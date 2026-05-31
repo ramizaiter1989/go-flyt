@@ -68,7 +68,7 @@ export function MovingCalculator() {
           x: [0, 30, 0],
           y: [0, -20, 0],
         }}
-        transition={{ duration: 10, repeat: Infinity, ease: "easeInOut" }}
+        transition={{ duration: 10, repeat: Infinity, ease: "easeInOut" as const }}
         className="absolute top-1/4 left-0 w-72 h-72 bg-primary/10 rounded-full blur-3xl" 
       />
       <motion.div 
@@ -76,7 +76,7 @@ export function MovingCalculator() {
           x: [0, -20, 0],
           y: [0, 30, 0],
         }}
-        transition={{ duration: 12, repeat: Infinity, ease: "easeInOut", delay: 1 }}
+        transition={{ duration: 12, repeat: Infinity, ease: "easeInOut" as const, delay: 1 }}
         className="absolute bottom-1/4 right-0 w-64 h-64 bg-accent/20 rounded-full blur-3xl" 
       />
 

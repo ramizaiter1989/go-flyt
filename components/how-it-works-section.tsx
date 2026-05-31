@@ -39,7 +39,7 @@ export function HowItWorksSection() {
           x: [0, 50, 0],
           y: [0, -30, 0],
         }}
-        transition={{ duration: 8, repeat: Infinity, ease: "easeInOut" }}
+        transition={{ duration: 8, repeat: Infinity, ease: "easeInOut" as const }}
         className="absolute top-1/4 right-1/4 w-64 h-64 bg-primary/5 rounded-full blur-3xl" 
       />
       <motion.div 
@@ -47,7 +47,7 @@ export function HowItWorksSection() {
           x: [0, -40, 0],
           y: [0, 40, 0],
         }}
-        transition={{ duration: 10, repeat: Infinity, ease: "easeInOut" }}
+        transition={{ duration: 10, repeat: Infinity, ease: "easeInOut" as const }}
         className="absolute bottom-1/4 left-1/4 w-48 h-48 bg-accent/10 rounded-full blur-3xl" 
       />
 

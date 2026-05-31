@@ -53,7 +53,7 @@ export function QuoteFormSection() {
           scale: [1, 1.2, 1],
           opacity: [0.1, 0.2, 0.1],
         }}
-        transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
+        transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" as const }}
         className="absolute top-0 right-0 w-96 h-96 bg-primary/20 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2" 
       />
       <motion.div 
@@ -61,7 +61,7 @@ export function QuoteFormSection() {
           scale: [1, 1.3, 1],
           opacity: [0.1, 0.15, 0.1],
         }}
-        transition={{ duration: 8, repeat: Infinity, ease: "easeInOut", delay: 2 }}
+        transition={{ duration: 8, repeat: Infinity, ease: "easeInOut" as const, delay: 2 }}
         className="absolute bottom-0 left-0 w-80 h-80 bg-accent/30 rounded-full blur-3xl translate-y-1/2 -translate-x-1/2" 
       />
 

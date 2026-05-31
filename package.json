@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "package:cpanel": "node scripts/package-cpanel.mjs",
+    "package:cpanel:fast": "node scripts/package-cpanel.mjs --skip-build"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",

@@ -17,7 +17,7 @@ const container = {
 
 const item = {
   hidden: { opacity: 0, scale: 0.9 },
-  show: { opacity: 1, scale: 1, transition: { duration: 0.5, ease: "easeOut" } },
+  show: { opacity: 1, scale: 1, transition: { duration: 0.5, ease: "easeOut" as const } },
 }
 
 export function ServicesSection() {

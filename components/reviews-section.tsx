@@ -100,14 +100,14 @@ export function ReviewsSection() {
         animate={{ 
           rotate: [0, 360],
         }}
-        transition={{ duration: 60, repeat: Infinity, ease: "linear" }}
+        transition={{ duration: 60, repeat: Infinity, ease: "linear" as const }}
         className="absolute top-1/4 -left-32 w-64 h-64 border border-secondary-foreground/10 rounded-full" 
       />
       <motion.div 
         animate={{ 
           rotate: [360, 0],
         }}
-        transition={{ duration: 80, repeat: Infinity, ease: "linear" }}
+        transition={{ duration: 80, repeat: Infinity, ease: "linear" as const }}
         className="absolute bottom-1/4 -right-32 w-96 h-96 border border-secondary-foreground/10 rounded-full" 
       />
 

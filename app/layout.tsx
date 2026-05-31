@@ -12,7 +12,6 @@ export const metadata: Metadata = {
   title: 'GoFLyt - Flyt nemt og sikkert i Danmark',
   description: 'Professionel flytteservice i hele Danmark. Beregn pris online og få tilbud på din flytning. Forsikrede flyttefolk, gennemsigtige priser og hurtig booking.',
   keywords: ['flyttefirma', 'flytning', 'flytteservice', 'Danmark', 'GoFLyt', 'flyttehjælp', 'boligflytning', 'kontorflytning'],
-  generator: 'v0.app',
   openGraph: {
     title: 'GoFLyt - Flyt nemt og sikkert i Danmark',
     description: 'Professionel flytteservice i hele Danmark. Beregn pris online og få tilbud på din flytning.',
