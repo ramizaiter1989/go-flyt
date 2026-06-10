@@ -254,7 +254,3 @@ html {
   animation: bounceSlight 2s ease-in-out infinite;
 }
 
-/* Hide v0 platform branding badge injected on v0/Vercel deployments */
-[data-v0-badge] {
-  display: none !important;
-}
